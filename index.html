@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay Flower</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Kay Flower">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showContent('home')">Home</a></li>
+                <li><a href="#" onclick="showContent('services')">Services</a></li>
+                <li><a href="#" onclick="showContent('about')">About</a></li>
+                <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+                <li><a href="#" onclick="showContent('prices')">Prices</a></li>
+                <li><a href="#" onclick="showContent('gallery')">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="home" class="content-section">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Kay Flower</h1>
+                    <p>The perfect accessory to any day</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="content-section" style="display: none;">
+            <div class="services-container">
+                <div class="service">
+                    <img src="pictures/consultation.jpg" alt="Service 1">
+                    <h2>Fresh floral arrangements and blooming plants</h2>
+                    <p>For every occasion – birthdays, anniversaries, holidays, weddings, special events, corporate gifts, and sympathy tributes.</p>
+                </div>
+                <div class="service">
+                    <img src="pictures/floral.jpg" alt="Service 2">
+                    <h2>In-home consultations</h2>
+                    <p>Our home décor designers will create custom designs that embrace and complement your home.</p>
+                </div>
+                <div class="service">
+                    <img src="pictures/season.jpg" alt="Service 3">
+                    <h2>Design workshops</h2>
+                    <p>Featuring a variety of popular themes like seasonal wreath-making and fresh floral design. No experience is necessary and you take your creation home with you!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section" style="display: none;">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Kay Flower brings joy, elegance, and warmth into every moment through the artistry of flowers. With an unwavering commitment to quality, creativity, and personalized service, we aim to be the destination where every customer discovers the perfect bloom to express their emotions, celebrate life's milestones, and create lasting memories. Rooted in passion and dedicated to excellence, we cultivate connections, inspire creativity, and spread happiness, one exquisite arrangement at a time.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section" style="display: none;">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+                <p>Please fill out the form below to get in touch with us.</p>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"></textarea><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="prices" class="content-section" style="display: none;">
+            <div class="prices-content">
+                <h2>Prices</h2>
+                <div class="service-prices">
+                    <div class="price">
+                        <h3>Fresh Floral Arrangements</h3>
+                        <p>Starting from R150</p>
+                    </div>
+                    <div class="price">
+                        <h3>In-home Consultations</h3>
+                        <p>R750 per hour</p>
+                    </div>
+                    <div class="price">
+                        <h3>Design Workshops</h3>
+                        <p>R750 per session</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="content-section" style="display: none;">
+            <div class="gallery-content">
+                <h2>Gallery</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="pictures/stdflower.jpg" alt="Flower 1">
+                        <div class="gallery-info">
+                            <h3>Possy Flower Std</h3>
+                            <p>R150.00</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="pictures/greenwhite.jpeg" alt="Flower 2">
+                        <div class="gallery-info">
+                            <h3>Green and White Possy</h3>
+                            <p>R200.00</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="pictures/rosepossy.jpg" alt="Flower 3">
+                        <div class="gallery-info">
+                            <h3>Rose Possy</h3>
+                            <p>R250.00</p>
+                        </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="pictures/stdupright.jpg" alt="Flower 3">
+                            <div class="gallery-info">
+                                <h3>Std Upright</h3>
+                                <p>R350.00</p>
+                            </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="pictures/Upright.jpeg" alt="Flower 3">
+                                <div class="gallery-info">
+                                    <h3>Big Upright</h3>
+                                    <p>R650.00</p>
+                                </div>
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="pictures/rosepossy.jpg" alt="Flower 3">
+                                    <div class="gallery-info">
+                                        <h3>....</h3>
+                                        <p>R250.00</p>
+                                    </div>
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="pictures/babyflower.jpg" alt="Flower 3">
+                                        <div class="gallery-info">
+                                            <h3>Baby Flower</h3>
+                                            <p>R150.00</p>
+                                        </div>
+                                        </div>
+                                        <div class="gallery-item">
+                                            <img src="pictures/stdflower.jpg" alt="Flower 3">
+                                            <div class="gallery-info">
+                                                <h3>Std Flower</h3>
+                                                <p>R300.00</p>
+                                            </div>
+                                            </div>
+                                            <div class="gallery-item">
+                                                <img src="pictures/3tier.jpg" alt="Flower 3">
+                                                <div class="gallery-info">
+                                                    <h3>3 Tier Flower</h3>
+                                                    <p>R380.00</p>
+                                                </div>
+                                                </div>
+                                                <div class="gallery-item">
+                                                    <img src="pictures/casket.jpg" alt="Flower 3">
+                                                    <div class="gallery-info">
+                                                        <h3>Casket Flower</h3>
+                                                        <p>R550.00</p>
+                                                    </div>
+                                                    </div>
+                                                    <div class="gallery-item">
+                                                        <img src="pictures/dome.jpg" alt="Flower 3">
+                                                        <div class="gallery-info">
+                                                            <h3>Dome</h3>
+                                                            <p>R1000.00</p>
+                                                        </div>
+                                                        </div>
+                                                        <div class="gallery-item">
+                                                            <img src="pictures/gross.png" alt="Flower 3">
+                                                            <div class="gallery-info">
+                                                                <h3>Gross/Ring Flowers</h3>
+                                                                <p>R750.00</p>
+                                                            </div>
+                                                           
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Kay Flower. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
